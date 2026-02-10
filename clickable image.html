@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clickable Image Table</title>
+        <style>
+        Table {
+            Display: none;
+            Border-collapse: collapse;
+            Margin-top: 20px;
+        }
+        Th, td {
+            Border: 1px solid black;
+            Padding: 8px;
+        }
+        Img {
+            Width: 200px;
+            Cursor: pointer;
+        }
+        </style>
+        </head>
+        <body>
+            <a href="#info" onclick="document.getElementById('info').style.display='table'">
+                <img src=iron-man-doctor-5120x2880-18335.jpg alt="Click Image">
+            </a>
+            <table id="info">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>Ravi</td>
+                    <td>22</td>
+                    <td>Chennai</td>
+                </tr>
+            </table>
+        </body>
+</html>
+
+
+
